@@ -1,0 +1,49 @@
+
+body {
+  font-size: 16px;
+  background: #ffffff;
+
+}
+nav{
+  background-color: #3399ff;
+  border: .2px solid #b3d9ff;
+  width: 50%;
+}
+h2  {
+  color:  #000000;
+  border: 10px solid green;
+}
+h3{
+  text-shadow:5px 5px 20px #000;
+}
+p{
+  text-align: justify;
+  line-height: 23px;
+
+}
+article p {
+  color:  #000000;
+  width: 50%;
+position: relative;
+bottom: 40px;
+}
+footer {
+  color:  #000000;
+  font-size: .5em;
+  text-align: right;
+
+}
+div {
+  color: #000000;
+  width: 250px;
+}
+
+
+.fechas{
+  position: relative;
+  top:;
+  right:;
+  bottom:40px;
+  left:700px;
+  text-shadow:5px 5px 20px #000;
+}
