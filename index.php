@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CV ING.FANER</title>
+	<title>CV Fanerrrrrrrrrrrr</title>
 </head>
 <body>
 <header>
