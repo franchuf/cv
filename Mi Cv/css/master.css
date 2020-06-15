@@ -1,4 +1,10 @@
 
+html {
+  font-size: 10px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+  /*font-family: 'Balsamiq Sans', cursive;*/
+  font-family: 'Ubuntu', sans-serif;
+}
+
 body {
   font-size: 16px;
   background: #9999ff;
