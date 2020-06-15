@@ -11,7 +11,8 @@ nav{
 }
 h2  {
   color:  #000000;
-  border: 10px solid green;
+  text-decoration: underline #9bdfa4 ;
+  /*border: 10px solid green;*/
 }
 h3{
   text-shadow:5px 5px 20px #000;
