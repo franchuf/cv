@@ -1,0 +1,21 @@
+body{
+    background-color: turquoise;
+    text-align: center;
+    margin: 0;
+}
+
+.cloud-top {
+    width: 100px;
+    position: absolute;
+    right:200px ;
+    top: 150px;
+}
+.cloud-bottom {
+    width: 100px;
+    position: absolute;
+    top: 170px;
+    left: 270px;
+}
+.mountain{
+    width:500px;
+}
