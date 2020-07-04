@@ -1,9 +1,9 @@
 
 html {
-  font-size: 10px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+  font-size: 10em; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
   /*font-family: 'Balsamiq Sans', cursive;*/
   font-family: 'Ubuntu', sans-serif;
-  background: #cfcff1
+  background: red
 }
 body {
   width: 1000px;
@@ -65,7 +65,6 @@ div {
 
 .fechas{
   position: relative;
-  
   bottom:40px;
   left:700px;
   text-shadow:5px 5px 20px #000;
