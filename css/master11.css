@@ -9,7 +9,7 @@ body {
   width: 1000px;
   margin: 0 auto; /*el primer valor es arriba y abajo (cero en este caso), y para el segundo valor es izquierda y derecha (auto en este caso)*/
   background-color: antiquewhite;
-  font-size: 16px;
+  /* font-size: 1px; */
   padding: 20px 20px 50px 10px;
   border: 5px solid black;
 }
