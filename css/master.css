@@ -1,8 +1,13 @@
 body {
+    background-color: floralwhite ;
     padding-top: 65px;
 }
 
 
 .nav-item {
     padding-right: 30px; 
+}
+h4{
+    font-size: 1rem;
+    text-align: right;
 }
