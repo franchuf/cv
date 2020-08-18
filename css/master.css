@@ -26,7 +26,11 @@ body {
     
 
 }
-
+.miFoto {
+    position: absolute;
+    right: 5%;
+    width: 250px;
+}
 
 .nav-item {
     padding-right: 30px; 
