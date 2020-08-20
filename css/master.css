@@ -26,10 +26,18 @@ body {
     
 
 }
+.skew{
+    background-color: rgb(70, 95, 81);
+    transform: skewX(5deg);
+    width: 550px;
+    height: 25rem;
+    position: relative;
+    right: 39px;
+}
 .miFoto {
     position: absolute;
-    right: 5%;
-    width: 250px;
+    right: 0%;
+    width: 315px;
 }
 
 .nav-item {
