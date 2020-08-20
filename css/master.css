@@ -26,10 +26,24 @@ body {
     
 
 }
+
+.cardContent{
+    background-color: rgb(70, 95, 81);
+    position: relative;
+    width: 500px;
+    height: 25rem;
+    
+    
+}
+.cardText {
+    margin: auto;
+    font-size: 30px;
+}
+
 .miFoto {
     position: absolute;
-    right: 5%;
-    width: 250px;
+    right: 0%;
+    width: 315px;
 }
 
 .nav-item {
