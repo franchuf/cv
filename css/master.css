@@ -26,14 +26,20 @@ body {
     
 
 }
-.skew{
+
+.cardContent{
     background-color: rgb(70, 95, 81);
-    transform: skewX(5deg);
-    width: 550px;
-    height: 25rem;
     position: relative;
-    right: 39px;
+    width: 500px;
+    height: 25rem;
+    
+    
 }
+.cardText {
+    margin: auto;
+    font-size: 30px;
+}
+
 .miFoto {
     position: absolute;
     right: 0%;
