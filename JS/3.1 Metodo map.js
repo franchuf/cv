@@ -10,8 +10,8 @@ var discos = [
 ];
 
 
-var filtro = discos.filter(function(articulo){
-    return articulo.costo<=250
+var albums = discos.map(function(disco){
+    return disco.album                           //trae un array con los nombres de los albumes
 });
     
 
