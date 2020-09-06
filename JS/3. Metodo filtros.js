@@ -1,7 +1,9 @@
+//Metodos son acciones que se pueden hacer sobre los arreglos. En este caso metodo de filtro. Filter crea un nuevo array con objetos filtrados del array en cuestion.
+
 var discos = [
-    {album: "use your ilusion", costo: 200},
-    {album:"la era de la b", costo: 300},
-    {album:"elotro0", costo: 223},
+ {album: "use your ilusion", costo: 200},
+   {album:"la era de la b", costo: 300},
+{album:"elotro0", costo: 223},
     {album:"elotro1", costo: 333},
     {album:"elotro2", costo: 150},
     {album:"elotro3", costo: 233},
