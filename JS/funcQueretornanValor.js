@@ -2,6 +2,7 @@ var fran = {
     nombre: 'francisco',
     apellido: 'faner',
     edad: 39,
+    peso:85,
     estudiante: false,
     ingeniero:true,
     musico: true,

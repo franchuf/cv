@@ -27,4 +27,12 @@ function cumple2(persona){
     }
 }
 
+
+var trans = function (persona){ //para crear un trnsgenero de fran, aunque a la persona de referencia no la toca.
+    return {
+        ...persona,
+        nombre: persona.nombre + '/a'
+    }
+}
+
 var pedroMasViejo = cumple2(pedro); // me devuelve un objeto pedro con mas edad y pedro lo deja intacto.
