@@ -14,9 +14,9 @@ var fran = {
 const INCREMENTO_PESO = 0.200
 const aumentaDePeso = persona => persona.peso += INCREMENTO_PESO;
 const bajaDePeso = persona => persona.peso -= INCREMENTO_PESO;
-const meta = 74
-const comeMucho = () => Math.random < 0.3
-const haceDeporte = () => Math.random < 0.4
+const meta = fran.peso - 3;
+const comeMucho = () => Math.random() < 0.3;
+const haceDeporte = () => Math.random() < 0.4;
 // const numRandom = function (){
 //     return Math.round(Math.random()*(numMax-numMin)+numMin)
 // }
@@ -34,6 +34,15 @@ for (i = 0; i <= 365; i++) {
 }
 console.log(`al final del año ${fran.nombre} pesa ${fran.peso.toFixed(1)}`);
 
-while (fran.peso > meta) {
-    if ()
- }
+let dias = 0;
+while (fran.peso > meta) { //esto significa que se ejecuta mientra el peso de fran sea mayor. Cuando es menor ya deja de ejecutarse.
+    if (comeMucho()){
+        aumentaDePeso(fran);
+    }
+    if(haceDeporte()){
+        bajaDePeso(fran);
+
+    }
+    dias+=1;
+}
+console.log(`pasaron ${dias}dias hasta que ${fran.nombre} bajo 3kg`)
