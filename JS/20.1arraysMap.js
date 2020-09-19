@@ -37,10 +37,10 @@ var paula = {
 
 var personas = [paula, vicky, dario, martin, alan, sacha];
 
-var aCm = function(persona){
+var aCm = function(persona,apellido2){
     return {
         
-       ...persona, 
+       ...persona,
         
        altura: persona.altura*=100   
        
