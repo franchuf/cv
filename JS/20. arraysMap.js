@@ -35,8 +35,15 @@ var paula = {
 }
 
 var personas = [paula, vicky, dario, martin, alan, sacha];
-for (i = 0; i < personas.length ; i++){
-    var persona = personas[i]
-    console.log (`${persona.nombre} mide ${persona.altura} metros`);
+
+//const pasarAlturaACm = persona => persona.altura*=100;
+var pasarAlturaACm = function (persona){
+       return {
+        ...persona,
+        altura: persona.altura *100
+    }
 }
 
+
+var personasCms = personas.map (pasarAlturaACm); //map me devuelve un array distinto al original
+console.log (personasCms);

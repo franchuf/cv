@@ -33,10 +33,11 @@ var paula = {
     apellido: 'Barros',
     altura: 1.76
 }
-
-var personas = [paula, vicky, dario, martin, alan, sacha];
-for (i = 0; i < personas.length ; i++){
-    var persona = personas[i]
-    console.log (`${persona.nombre} mide ${persona.altura} metros`);
+const esAlta = (persona) => {
+    return persona.altura>1.8
 }
+var personas = [paula, vicky, dario, martin, alan, sacha];
 
+
+var personasAltas = personas.filter (esAlta);
+console.log (personasAltas);

@@ -1,3 +1,4 @@
+//el map crea un nuevo array modificado, con los nuevos valores del array original
 var sacha = {
     nombre: 'Sacha',
     apellido: 'Lifszyc',
@@ -35,8 +36,15 @@ var paula = {
 }
 
 var personas = [paula, vicky, dario, martin, alan, sacha];
-for (i = 0; i < personas.length ; i++){
-    var persona = personas[i]
-    console.log (`${persona.nombre} mide ${persona.altura} metros`);
-}
 
+var aCm = function(persona){
+    return {
+        
+       ...persona, 
+        
+       altura: persona.altura*=100   
+       
+    }
+
+}
+var nPersonas = personas.map (aCm);
