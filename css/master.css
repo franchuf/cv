@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: floralwhite ;
     padding-top: 65px;
@@ -67,3 +68,78 @@ h4{
     font-size: 1rem;
     text-align: right;
 }
+=======
+body {
+    background-color: floralwhite ;
+    padding-top: 65px;
+    
+}
+.fondoHeader {
+    background: url(http://trimatrixlab.com/store/flatrica/images/backgrounds/background.jpg);
+    /* position: relative; */
+    display: block;
+    width: 100%;
+    height: 370px;
+    background-size: cover; 
+    /* background-position: center; */
+    background-attachment: fixed ;
+}
+.cardHolder{
+    
+    
+    height: 25rem;
+    width: 60rem;
+    position: relative;
+    margin: 0 auto ;
+    bottom: 250px;
+    
+    
+
+}
+
+.cardContent{
+    background-color: rgb(70, 95, 81);
+    position: relative;
+    margin-left: 8.35rem;
+    width: 32rem;
+    height: 25rem;
+    
+    
+}
+.cardContent h3  {
+    color: white;
+    text-align: left;
+    padding-top: 4rem ;
+    margin-left: 5rem;
+}
+.cardContent h4  {
+    color: white;
+    text-align: left;
+    padding-bottom: 2rem;
+    margin-left: 5rem;
+}
+.cardContent p{
+    text-align: left;
+    padding-top: px;
+    color: white;
+    margin-left: 5rem;
+}
+
+
+.miFoto {
+    position: absolute;
+    right: 0%;
+    width: 315px;
+}
+
+.nav-item {
+    padding-right: 30px; 
+}
+h4{
+    font-size: 1rem;
+    text-align: right;
+}
+h2 {
+    padding-bottom: 2rem;
+}
+>>>>>>> c967a32d0090ec330d514080857ec80080cf2ec4
