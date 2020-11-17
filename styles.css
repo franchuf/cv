@@ -1,0 +1,21 @@
+.main-nav {
+    margin-top: 50px;
+    list-style: none;
+    padding-left: 0;
+    background-color: blue;
+}
+.main-nav__item {
+    display: inline-block
+    
+}
+.titulo h1 {
+    color: white;
+    background-color: orangered;
+    font-weight: 500;
+    font-size: 8rem;
+    margin-left: 0%;
+    }
+.main-nav__item a {
+    color: white;
+    padding: 10px;
+}
