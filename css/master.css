@@ -4,14 +4,15 @@ body {
     
 }
 .fondoHeader {
-    background: url(http://trimatrixlab.com/store/flatrica/images/backgrounds/background.jpg);
-    /* position: relative; */
+    
+    position: relative;
     display: block;
     width: 100%;
     height: 370px;
-    background-size: cover; 
-    /* background-position: center; */
-    background-attachment: fixed ;
+    background: url() no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 .cardHolder{
     
