@@ -1,32 +1,40 @@
 body {
     background-color: floralwhite ;
-    padding-top: 65px;
     
+ 
+}
+
+header {
+    position: relative;
+    height: 600px;
 }
 .fondoHeader {
-    
+    top: 0px;
     position: relative;
     display: block;
     width: 100%;
-    height: 370px;
-    background: url() no-repeat;
+    height: 500px;
+    background: url(https://github.com/franchuf/cv/blob/master/imagenes/background.jpg?raw=true) no-repeat;
+    filter: blur(8px);
+    -webkit-filter: blur(5px);
     background-size: cover;
-    background-position: center center;
+    background-position: -220px center;
     background-attachment: fixed;
 }
 .cardHolder{
-    
-    
+     
     height: 25rem;
     width: 60rem;
-    position: relative;
+    position: absolute;
     margin: 0 auto ;
-    bottom: 250px;
-    
+    bottom: 150px;
+    left: 110px;
     
 
 }
-
+figure {
+    margin-bottom: 0px;
+}
 .cardContent{
     background-color: rgb(70, 95, 81);
     position: relative;
