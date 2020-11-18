@@ -27,10 +27,19 @@ header {
     width: 60rem;
     position: absolute;
     margin: 0 auto ;
-    bottom: 150px;
+    top: 140px;
     left: 110px;
     
 
+}
+.perfilProfesional {
+    border: solid 1px;
+    text-align: center;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 figure {
     margin-bottom: 0px;
