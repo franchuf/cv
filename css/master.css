@@ -10,7 +10,6 @@ header {
 }
 .fondoHeader {
     top: 0px;
-    position: relative;
     display: block;
     width: 100%;
     height: 650px;
@@ -26,10 +25,8 @@ header {
      
     height: 25rem;
     width: 60rem;
-    position: absolute;
-    margin-right: auto;
-    margin-left: auto;
-    top: 290px;
+    display: flex;
+    flex-direction: row;
    
     
 
@@ -48,8 +45,6 @@ figure {
 }
 .cardContent{
     background-color: rgb(70, 95, 81);
-    position: relative;
-    margin-left: 8.35rem;
     width: 32rem;
     height: 25rem;
     

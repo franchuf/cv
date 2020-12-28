@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cardHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.cardContent{
+        background-color: rgb(70, 95, 81);
+        width: 32rem;
+        height: 20rem;
+}
+
+
+.miFoto {
+    height:20rem;
+    margin-left: rem;
+}
