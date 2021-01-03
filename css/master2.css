@@ -8,6 +8,8 @@
 ul{
     line-height: 300%;
     list-style: none;
+    font-family: 'B612', sans-serif;
+    font-size: 105%;
 
 }
 .cardHolder {
@@ -24,21 +26,28 @@ ul{
         color: white;
         padding: 4rem 0 0 5rem;
         
-               
 }
 
- .cardContent h3{
+ul img {
+    width: 3.5%;
+    
+}
+.cardContent h3{
     display: flex;
     justify-content: flex-start;
-    font-size: 2.2rem;
-    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    font-family: 'Alegreya', serif;
+    font-weight: bolder;
+    
  }
  .cardContent h4{
     display: flex;
     justify-content: flex-start;
     margin: 0 auto;
     padding-bottom: 2rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    font-family: 'Alegreya', serif;
+
  }
 
 .miFoto {
