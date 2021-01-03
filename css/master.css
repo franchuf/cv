@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+  }
+
 body {
     background-color: floralwhite ;
     
@@ -47,7 +53,7 @@ figure {
     background-color: rgb(70, 95, 81);
     width: 32rem;
     height: 25rem;
-    
+    color: white;
     
 }
 .cardContent h3  {

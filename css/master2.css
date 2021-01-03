@@ -12,9 +12,26 @@
 }
 .cardContent{
         background-color: rgb(70, 95, 81);
+        
         width: 32rem;
         height: 20rem;
+        color: white;
 }
+
+ .cardContent h3{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+ }
+ .cardContent h4{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+ }
+ .cardContent p{
+    padding-top: ;
+ }
 
 
 .miFoto {
