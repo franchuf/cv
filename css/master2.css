@@ -4,37 +4,41 @@
     padding: 0;
 }
 
+
+ul{
+    line-height: 300%;
+    list-style: none;
+
+}
 .cardHolder {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 90px;
     
 }
 .cardContent{
         background-color: rgb(70, 95, 81);
-        
-        width: 32rem;
-        height: 20rem;
+        width: 40rem;
+        height: 30rem;
         color: white;
+        padding: 4rem 0 0 5rem;       
 }
 
  .cardContent h3{
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    justify-content: flex-start;
+    font-size: 2.2rem;
  }
  .cardContent h4{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 0 auto;
     padding-bottom: 2rem;
+    font-size: 1.1rem;
  }
- .cardContent p{
-    padding-top: ;
- }
-
 
 .miFoto {
-    height:20rem;
+    height:30rem;
     margin-left: rem;
 }
