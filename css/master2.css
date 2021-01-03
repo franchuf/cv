@@ -22,13 +22,16 @@ ul{
         width: 40rem;
         height: 30rem;
         color: white;
-        padding: 4rem 0 0 5rem;       
+        padding: 4rem 0 0 5rem;
+        
+               
 }
 
  .cardContent h3{
     display: flex;
     justify-content: flex-start;
     font-size: 2.2rem;
+    font-family: 'Roboto Slab', serif;
  }
  .cardContent h4{
     display: flex;
