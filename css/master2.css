@@ -4,12 +4,6 @@
     padding: 0;
 }
 
-.fondo{
-    width: 100vw;
-    height: 100vh;
-    background-color: red;
-    
-}
 ul{
     line-height: 220%;
     list-style: none;
@@ -22,7 +16,8 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 90px;
+    margin: 0px;
+    padding-top: 5rem;
     
 }
 .cardContent{
