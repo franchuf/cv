@@ -4,12 +4,18 @@
     padding: 0;
 }
 
-
+.fondo{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    
+}
 ul{
-    line-height: 300%;
+    line-height: 220%;
     list-style: none;
     font-family: 'B612', sans-serif;
     font-size: 105%;
+    padding-top: 1.6rem;
 
 }
 .cardHolder {
@@ -22,9 +28,9 @@ ul{
 .cardContent{
         background-color: rgb(70, 95, 81);
         width: 40rem;
-        height: 30rem;
+        height: 27rem;
         color: white;
-        padding: 4rem 0 0 5rem;
+        padding: 2rem 0 0 5rem;
         
 }
 
@@ -51,6 +57,6 @@ ul img {
  }
 
 .miFoto {
-    height:30rem;
+    height:27rem;
     margin-left: rem;
 }
