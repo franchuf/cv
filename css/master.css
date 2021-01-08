@@ -1,94 +1,79 @@
 *{
     box-sizing: border-box;
-    padding:0;
-    margin:0;
-  }
-
-body {
-    background-color: floralwhite ;
-    
- 
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    position: relative;
-    height: 600px;
+
+
+ul{
+    line-height: 220%;
+    list-style: none;
+    font-family: 'B612', sans-serif;
+    font-size: 105%;
+    padding-top: 1.6rem;
 }
-.fondoHeader {
-    top: 0px;
-    display: block;
-    width: 100%;
-    height: 650px;
-    background: url(https://github.com/franchuf/cv/blob/master/imagenes/background.jpg?raw=true) no-repeat;
-    filter: blur(8px);
-    -webkit-filter: blur(5px);
-    background-size: cover;
-    background-position: -650px -50px;
-    background-attachment: fixed;
-    
-}
-.cardHolder{
-     
-    height: 25rem;
-    width: 60rem;
+.cardHolder {
     display: flex;
     flex-direction: row;
-   
-    
+    justify-content: center;
+    margin: 10px;
+    padding-top: 5rem;
 
-}
-.perfilProfesional {
-    border: solid 1px;
-    text-align: center;
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 100px;
-    margin-bottom: 30px;
-}
-figure {
-    margin-bottom: 0px;
+    
 }
 .cardContent{
-    background-color: rgb(70, 95, 81);
-    width: 32rem;
-    height: 25rem;
-    color: white;
+        background-color: rgb(70, 95, 81);
+        width: 80%;
+        height: 27rem;
+        color: white;
+        padding: 2rem 0 0 5rem;
+        
+}
+
+ul img {
+    width: 3.5%;
     
 }
-.cardContent h3  {
-    color: white;
-    text-align: left;
-    padding-top: 4rem ;
-    margin-left: 5rem;
-}
-.cardContent h4  {
-    color: white;
-    text-align: left;
+.cardContent h3{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2.5rem;
+    font-family: 'Alegreya', serif;
+    font-weight: bolder;
+    
+ }
+ .cardContent h4{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
     padding-bottom: 2rem;
-    margin-left: 5rem;
-}
-.cardContent p{
-    text-align: left;
-    padding-top: px;
-    color: white;
-    margin-left: 5rem;
-}
+    font-size: 1.5rem;
+    font-family: 'Alegreya', serif;
 
+ }
 
 .miFoto {
-    position: absolute;
-    right: 0%;
-    width: 315px;
+    height:27rem;
+    margin-left: rem;
 }
 
-.nav-item {
-    padding-right: 30px; 
+.perfilProfesional{
+    width: 90%;
+    min-width: 320px;
+    margin: 2rem auto;
+    border: solid 3px ;
+    box-shadow: 10px 5px 5px black;
+    padding: 1rem;
 }
-h4{
-    font-size: 1rem;
-    text-align: right;
+.fechas{
+    display: flex;
 }
-h2 {
-    padding-bottom: 2rem;
+.experiencia h4{
+    margin: 0 2rem 0;
+    margin-left: auto;
+    font-size: 1.1rem;
+}
+.experiencia h3{
+    margin-top: 7rem;
 }
