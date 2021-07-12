@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
-
-
 ul{
     line-height: 220%;
     list-style: none;
@@ -20,7 +17,6 @@ ul{
     margin: 10px;
     padding-top: 5rem;
 
-    
 }
 .cardContent{
         background-color: rgb(70, 95, 81);
@@ -28,12 +24,10 @@ ul{
         height: 27rem;
         color: white;
         padding: 2rem 0 0 5rem;
-        
 }
 
 ul img {
     width: 3.5%;
-    
 }
 .cardContent h3{
     display: flex;
@@ -41,7 +35,6 @@ ul img {
     font-size: 2.5rem;
     font-family: 'Alegreya', serif;
     font-weight: bolder;
-    
  }
  .cardContent h4{
     display: flex;
@@ -50,22 +43,21 @@ ul img {
     padding-bottom: 2rem;
     font-size: 1.5rem;
     font-family: 'Alegreya', serif;
-
- }
+}
 
 .miFoto {
     height:27rem;
     margin-left: rem;
 }
 
-.perfilProfesional{
+/* .perfilProfesional{
     width: 90%;
     min-width: 320px;
     margin: 2rem auto;
     border: solid 3px ;
     box-shadow: 10px 5px 5px black;
     padding: 1rem;
-}
+} */
 .fechas{
     display: flex;
 }
